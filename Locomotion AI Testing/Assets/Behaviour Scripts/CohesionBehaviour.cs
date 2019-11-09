@@ -18,12 +18,12 @@ public class CohesionBehaviour : FlockBehaviour
         Vector3 cohesionMove = Vector3.zero;
         foreach (Transform item in context)
         {
-            cohesionMove += item.position;
+            cohesionMove += (Vector3)item.position;
         }
         cohesionMove /= context.Count;
 
         //Offset from current agent position
-        cohesionMove -= agent.transform.position;
+        cohesionMove -= (Vector3)agent.transform.position;
         return cohesionMove;
     }
 }

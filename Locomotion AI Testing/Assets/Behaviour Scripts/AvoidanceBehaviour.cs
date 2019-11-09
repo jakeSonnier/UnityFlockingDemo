@@ -22,7 +22,7 @@ public class AvoidanceBehaviour : FlockBehaviour
             if (Vector3.SqrMagnitude(item.position - agent.transform.position) < flock.SquareAvoidanceRadius)
             {
                 inAvoid++;
-                avoidanceMove += (agent.transform.position - item.position);
+                avoidanceMove += (Vector3)(agent.transform.position - item.position);
             } 
         }
 

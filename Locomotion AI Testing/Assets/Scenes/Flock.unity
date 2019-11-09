@@ -133,7 +133,7 @@ GameObject:
   m_Layer: 0
   m_Name: Flock
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -151,12 +151,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlockAgentPrefab: {fileID: 7368322434970747369, guid: 3575d4cdd049b7c469ae2be57f8bf537,
     type: 3}
-  behaviour: {fileID: 11400000, guid: 56ac6d9a25b295946811902e9b7f845e, type: 2}
-  startingCount: 14
-  driveFactor: 17
+  behaviour: {fileID: 11400000, guid: 53d117d88e76e694eb355800eafaafce, type: 2}
+  startingCount: 41
+  driveFactor: 1
   maxSpeed: 5
-  neighborRadius: 1
-  avoidanceRadiusMultiplier: 1
+  neighborRadius: 1.26
+  avoidanceRadiusMultiplier: 0.965
 --- !u!4 &830914126
 Transform:
   m_ObjectHideFlags: 0
@@ -165,7 +165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830914124}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 158.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -339,7 +339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954255590}
   m_LocalRotation: {x: 0.22248769, y: -0, z: -0, w: 0.97493553}
-  m_LocalPosition: {x: 0, y: 26.58, z: -55.28}
+  m_LocalPosition: {x: 0, y: 11.57, z: -23.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
